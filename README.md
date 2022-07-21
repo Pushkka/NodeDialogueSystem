@@ -14,7 +14,7 @@ And you can change any colors in **color** menue
 
 Click `RMB` and go to `Create -> Node Dialogue System -> Character` 
 
-Character is the set of all the sprites it has. So just add your sprites into the right category.
+Character is the set of all the sprites it has. So just add your sprites into the right category. If you want the character to have a **unique color** just select color in **character color** menue and check the box.
 
 ## How to create new Dialog?
 
