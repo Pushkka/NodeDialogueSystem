@@ -13,14 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImgType: 0
-  PosType: 0
   PartNames:
   - Head
   - Body
   Charters:
   - {fileID: 11400000, guid: d6a798cce80b4e04f82bc53599701a2b, type: 2}
-  - {fileID: 11400000, guid: ae677e53a029a484da275c1f8d43c2e2, type: 2}
-  - {fileID: 11400000, guid: 3887b0279b07e7a42891abbfbf0b6477, type: 2}
+  - {fileID: 11400000, guid: dac8b7ce87e193748a4a90b6913ce644, type: 2}
   NodeSize: {x: 200, y: 100}
   BackgroundColor: {r: 0.17, g: 0.17, b: 0.17, a: 1}
   SelectionColor: {r: 0, g: 0.4, b: 0.4, a: 0.4}

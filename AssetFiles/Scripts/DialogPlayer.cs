@@ -20,9 +20,9 @@ public class DialogPlayer : MonoBehaviour
     public Transform RightPos; 
     public Transform AnswerArea;
 
-    [HideInInspector]
+    //[HideInInspector]
     public Dialog MyDialog;
-    [HideInInspector]
+    //[HideInInspector]
     public Node CurentNode;
     [HideInInspector]
     public DialogSettings.imgType ImgType;
@@ -162,7 +162,7 @@ public class DialogPlayer : MonoBehaviour
 
                             //Debug.Log(CurentNode.Connections[item].Answer);
                         }
-                        break;
+                        return;
                     }
                     else
                     {

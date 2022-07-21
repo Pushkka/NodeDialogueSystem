@@ -1,34 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5297324444293775961
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d321b5fe1a73d441aab58680c9cf95d, type: 3}
-  m_Name: Talking to Yourself
-  m_EditorClassIdentifier: 
-  rect:
-    serializedVersion: 2
-    x: 448.43173
-    y: 444.34863
-    width: 200
-    height: 100
-  Character: {fileID: 0}
-  Position: 0
-  BodyParts:
-  - BodyName: Head
-    Content: -1
-  - BodyName: Body
-    Content: -1
-  text: Param 1 == 0
-  textSpeed: 1
-  Connections: []
-  OutputParam: []
 --- !u!114 &-4687635744495557758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 826.7645
-    y: 156.76492
+    x: 650.0316
+    y: 166.262
     width: 200
     height: 100
   Character: {fileID: 11400000, guid: dac8b7ce87e193748a4a90b6913ce644, type: 2}
@@ -72,8 +43,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 743.431
-    y: 425.01538
+    x: 566.69806
+    y: 428.88754
     width: 200
     height: 100
   Character: {fileID: 11400000, guid: dac8b7ce87e193748a4a90b6913ce644, type: 2}
@@ -101,8 +72,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 786.3485
-    y: 289.0159
+    x: 609.61566
+    y: 292.88797
     width: 200
     height: 100
   Character: {fileID: 11400000, guid: d6a798cce80b4e04f82bc53599701a2b, type: 2}
@@ -130,8 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 849.2643
-    y: 10.764923
+    x: 672.5314
+    y: 14.637001
     width: 200
     height: 100
   Character: {fileID: 11400000, guid: d6a798cce80b4e04f82bc53599701a2b, type: 2}
@@ -162,10 +133,8 @@ MonoBehaviour:
   - {fileID: -1456425626112216692}
   - {fileID: -4687635744495557758}
   - {fileID: -991391704114950204}
-  - {fileID: -5297324444293775961}
   - {fileID: 146875031935950687}
   Connections:
-  - {fileID: 7791718053803367981}
   - {fileID: 5646115699018101170}
   - {fileID: 4205696240193562388}
   - {fileID: 4553449615415179551}
@@ -194,8 +163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rect:
     serializedVersion: 2
-    x: 141.8472
-    y: 121.34877
+    x: 8.864029
+    y: 141.47086
     width: 200
     height: 100
   Character: {fileID: 11400000, guid: d6a798cce80b4e04f82bc53599701a2b, type: 2}
@@ -212,7 +181,6 @@ MonoBehaviour:
   - {fileID: 4553449615415179551}
   - {fileID: 4205696240193562388}
   - {fileID: 5646115699018101170}
-  - {fileID: 7791718053803367981}
   OutputParam: []
 --- !u!114 &1538753556100683351
 MonoBehaviour:
@@ -232,11 +200,7 @@ MonoBehaviour:
   Answer: Your Answer 2
   Time: 0
   SameParam: 00000000010000000200000003000000
-  InputParam:
-  - ID: 1
-    intType: 0
-    intState: 0
-    state: 1
+  InputParam: []
 --- !u!114 &4205696240193562388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -255,11 +219,7 @@ MonoBehaviour:
   Answer: Amother answer
   Time: 0
   SameParam: 00000000010000000200000003000000
-  InputParam:
-  - ID: 1
-    intType: 0
-    intState: 0
-    state: 1
+  InputParam: []
 --- !u!114 &4553449615415179551
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -278,11 +238,7 @@ MonoBehaviour:
   Answer: Your Answer 1
   Time: 0
   SameParam: 00000000010000000200000003000000
-  InputParam:
-  - ID: 1
-    intType: 0
-    intState: 0
-    state: 1
+  InputParam: []
 --- !u!114 &5646115699018101170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -301,31 +257,4 @@ MonoBehaviour:
   Answer: abracadabra
   Time: 0
   SameParam: 00000000010000000200000003000000
-  InputParam:
-  - ID: 1
-    intType: 0
-    intState: 0
-    state: 1
---- !u!114 &7791718053803367981
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d57386e18ac61d4c8fa32468f88ff6c, type: 3}
-  m_Name: Transition Talking to Yourself - Talking to Yourself
-  m_EditorClassIdentifier: 
-  From: {fileID: 146875031935950687}
-  To: {fileID: -5297324444293775961}
-  Type: 1
-  Answer: Your Answer
-  Time: 1
-  SameParam: 
-  InputParam:
-  - ID: 0
-    intType: 2
-    intState: 0
-    state: 0
+  InputParam: []

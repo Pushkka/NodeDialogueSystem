@@ -9,7 +9,7 @@ using UnityEditorInternal;
 #endif
 
 
-[CreateAssetMenu(fileName = "New Dialog", menuName = "Dialogue Pro/Dialog")]
+[CreateAssetMenu(fileName = "New Dialog", menuName = "Node Dialogue Sytem/Dialog")]
 public class Dialog : ScriptableObject
 {
     public List<Node> nodes = new List<Node>();

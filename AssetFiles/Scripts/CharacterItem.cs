@@ -8,7 +8,7 @@ using UnityEditor;
 using UnityEditorInternal;
 #endif
 
-[CreateAssetMenu(fileName = "New Character", menuName = "Dialogue Pro/Character")]
+[CreateAssetMenu(fileName = "New Character", menuName = "Node Dialogue Sytem/Character")]
 public class CharacterItem : ScriptableObject
 {
     public string Name;
